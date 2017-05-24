@@ -1,0 +1,40 @@
+.clearfix::after{
+    content: ' ';
+    height: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.localhost{
+    width: 100%;
+    background-color: #efeef0;
+}
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 16px;
+}
+.localhost>ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.localhost>ul>li{
+    float: left;
+    width: 50%;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+
+}
+.localhost>ul>li:nth-of-type(2n-1){
+    border-right: 1px solid #000000;
+    text-align: center;
+}
+
+/*数据分析*/
+.data-analyze{
+    width: 100%;
+    height: 300px;
+    background-color: #5FB878;
+}

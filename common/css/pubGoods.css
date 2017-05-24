@@ -1,0 +1,51 @@
+.clearfix::after{
+    content: ' ';
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.content{
+    width: 100%;
+    height: 300px;
+}
+.content ul{
+    list-style: none;
+    width: 100%;
+    padding: 10px 0;
+}
+.content ul li{
+    float: left;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+}
+.content ul li:nth-of-type(1){
+    width: 3%;
+}
+.content ul li:nth-of-type(2n){
+    width: 20%;
+}
+.content ul li{
+    width: 10%;
+    border-right: 1px solid #efeef0;
+    box-sizing: border-box;
+}
+.content ul li:last-child{
+    width: 17%;
+}
+/*商品列表*/
+.content .good-list ul{
+    border-bottom: 1px solid #efeef0;
+    padding-top: 0px;
+    padding-bottom: 4px;
+    margin: 0px;
+}
+.content .good-list ul>li:nth-of-type(2){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
